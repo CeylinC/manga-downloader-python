@@ -4,6 +4,8 @@ from PIL import Image #Convert JPG to PDF
 import os #Create File
 import shutil #Delete File
 
+os.mkdir("manga")
+
 episode = 1
 
 while(episode<=1):
