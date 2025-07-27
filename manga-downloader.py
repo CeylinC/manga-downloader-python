@@ -6,10 +6,10 @@ import shutil #Delete File
 
 os.mkdir("manga")
 
-episode = 1
+episode = 61
 
-while(episode<=1):
-    url = "https://mangakeyfi.net/manga/seoul-stations-necromancer/bolum-{}/".format(episode)
+while(episode<=244):
+    url = "https://hayalistic.com.tr/manga/bilge-okuyucunun-bakis-acisi/bolum-{}/".format(episode)
 
     response = requests.get(url)  # Web sayfasını çekme
     html = response.content  # Sayfa içeriği
