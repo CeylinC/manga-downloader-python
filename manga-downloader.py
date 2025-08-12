@@ -13,7 +13,7 @@ while(episode<=244):
 
     response = requests.get(url)  # Web sayfasını çekme
     html = response.content  # Sayfa içeriği
-    soup = BeautifulSoup(html, "html.parser")  # Sayfa parçalandı
+    soup = BeautifulSoup(html, "html.parser")  # Sayfa parçalandi
 
     imgIndex = 0
     belgeList = []
